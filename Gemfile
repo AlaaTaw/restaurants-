@@ -4,7 +4,7 @@ ruby '2.1.8'
 gem 'rails_12factor', group: :production
 gem 'rails', '4.2.6'
 
-gem 'sqlite3'
+gem 'sqlite3', group: :development
 
 gem 'sass-rails', '~> 5.0'
 
