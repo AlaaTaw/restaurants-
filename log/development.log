@@ -2695,3 +2695,300 @@ Processing by RestaurantsController#index as HTML
   Rendered layouts/_navbar.html.erb (0.0ms)
   Rendered layouts/_footer.html.erb (0.0ms)
 Completed 200 OK in 47ms (Views: 46.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-20 01:01:49 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by RestaurantsController#index as HTML
+  [1m[35mRestaurant Load (0.0ms)[0m  SELECT "restaurants".* FROM "restaurants"
+  Rendered restaurants/index.html.erb within layouts/application (11.5ms)
+  Rendered layouts/_bootstrap.html.erb (0.0ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 307ms (Views: 288.0ms | ActiveRecord: 0.5ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddImageToRestaurants (20160419220252)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (1.5ms)[0m  [1mALTER TABLE "restaurants" ADD "image" varchar[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20160419220252"]]
+  [1m[36m (13.9ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.5ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for ::1 at 2016-04-20 01:04:38 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by RestaurantsController#index as HTML
+  [1m[35mRestaurant Load (0.5ms)[0m  SELECT "restaurants".* FROM "restaurants"
+  Rendered restaurants/index.html.erb within layouts/application (12.3ms)
+  Rendered layouts/_bootstrap.html.erb (0.0ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 290ms (Views: 272.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-20 01:04:39 +0300
+
+
+Started GET "/assets/restaurants.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-20 01:04:39 +0300
+
+
+Started GET "/assets/scaffolds.self-89b686e07fc7a439f5c30d03f752a4112ef7801345df6647cde6c2b86007fd64.css?body=1" for ::1 at 2016-04-20 01:04:39 +0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-20 01:04:39 +0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-20 01:04:39 +0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-20 01:04:39 +0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-20 01:04:39 +0300
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-20 01:04:39 +0300
+
+
+Started GET "/assets/restaurants.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-20 01:04:39 +0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-20 01:04:39 +0300
+
+
+Started GET "/" for ::1 at 2016-04-20 01:09:05 +0300
+Processing by RestaurantsController#index as HTML
+  [1m[36mRestaurant Load (0.0ms)[0m  [1mSELECT "restaurants".* FROM "restaurants"[0m
+  Rendered restaurants/index.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_bootstrap.html.erb (0.5ms)
+  Rendered layouts/_navbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 54ms (Views: 48.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-20 01:09:05 +0300
+
+
+Started GET "/assets/restaurants.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-20 01:09:05 +0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-20 01:09:05 +0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-20 01:09:05 +0300
+
+
+Started GET "/assets/scaffolds.self-89b686e07fc7a439f5c30d03f752a4112ef7801345df6647cde6c2b86007fd64.css?body=1" for ::1 at 2016-04-20 01:09:05 +0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-20 01:09:05 +0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-20 01:09:05 +0300
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-20 01:09:05 +0300
+
+
+Started GET "/assets/restaurants.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-20 01:09:05 +0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-20 01:09:05 +0300
+
+
+Started GET "/restaurants/new" for ::1 at 2016-04-20 01:09:11 +0300
+Processing by RestaurantsController#new as HTML
+  Rendered restaurants/_form.html.erb (1.0ms)
+  Rendered restaurants/new.html.erb within layouts/application (5.5ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+SyntaxError (c:/Sites/yelpdemo/app/views/restaurants/_form.html.erb:1: syntax error, unexpected =>, expecting keyword_end
+...form_for(@restaurant), :html => { multipart: true }) do |f| ...
+...                               ^
+c:/Sites/yelpdemo/app/views/restaurants/_form.html.erb:1: syntax error, unexpected ')', expecting keyword_end
+..., :html => { multipart: true }) do |f| @output_buffer.safe_a...
+...                               ^
+c:/Sites/yelpdemo/app/views/restaurants/_form.html.erb:39: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/restaurants/_form.html.erb:1: syntax error, unexpected =>, expecting keyword_end
+  app/views/restaurants/_form.html.erb:1: syntax error, unexpected ')', expecting keyword_end
+  app/views/restaurants/_form.html.erb:39: syntax error, unexpected keyword_ensure, expecting end-of-input
+  app/views/restaurants/new.html.erb:3:in `_app_views_restaurants_new_html_erb__985307473_83594796'
+
+
+  Rendered c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (55.5ms)
+  Rendered c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (62.2ms)
+  Rendered c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (128.8ms)
+
+
+Started GET "/restaurants/new" for ::1 at 2016-04-20 01:09:12 +0300
+Processing by RestaurantsController#new as HTML
+  Rendered restaurants/_form.html.erb (1.0ms)
+  Rendered restaurants/new.html.erb within layouts/application (4.0ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+SyntaxError (c:/Sites/yelpdemo/app/views/restaurants/_form.html.erb:1: syntax error, unexpected =>, expecting keyword_end
+...form_for(@restaurant), :html => { multipart: true }) do |f| ...
+...                               ^
+c:/Sites/yelpdemo/app/views/restaurants/_form.html.erb:1: syntax error, unexpected ')', expecting keyword_end
+..., :html => { multipart: true }) do |f| @output_buffer.safe_a...
+...                               ^
+c:/Sites/yelpdemo/app/views/restaurants/_form.html.erb:39: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/restaurants/_form.html.erb:1: syntax error, unexpected =>, expecting keyword_end
+  app/views/restaurants/_form.html.erb:1: syntax error, unexpected ')', expecting keyword_end
+  app/views/restaurants/_form.html.erb:39: syntax error, unexpected keyword_ensure, expecting end-of-input
+  app/views/restaurants/new.html.erb:3:in `_app_views_restaurants_new_html_erb__985307473_81561984'
+
+
+  Rendered c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (52.0ms)
+  Rendered c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (51.4ms)
+  Rendered c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered c:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (113.6ms)
+
+
+Started GET "/" for ::1 at 2016-04-20 01:10:04 +0300
+Processing by RestaurantsController#index as HTML
+  [1m[35mRestaurant Load (0.5ms)[0m  SELECT "restaurants".* FROM "restaurants"
+  Rendered restaurants/index.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_bootstrap.html.erb (0.0ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 65ms (Views: 58.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-04-20 01:10:05 +0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-20 01:10:05 +0300
+
+
+Started GET "/assets/restaurants.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-20 01:10:05 +0300
+
+
+Started GET "/assets/scaffolds.self-89b686e07fc7a439f5c30d03f752a4112ef7801345df6647cde6c2b86007fd64.css?body=1" for ::1 at 2016-04-20 01:10:05 +0300
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-04-20 01:10:05 +0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-20 01:10:05 +0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-20 01:10:05 +0300
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-20 01:10:05 +0300
+
+
+Started GET "/assets/restaurants.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-20 01:10:05 +0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-20 01:10:05 +0300
+
+
+Started GET "/restaurants/new" for ::1 at 2016-04-20 01:10:10 +0300
+Processing by RestaurantsController#new as HTML
+  Rendered restaurants/_form.html.erb (39.1ms)
+  Rendered restaurants/new.html.erb within layouts/application (42.1ms)
+  Rendered layouts/_bootstrap.html.erb (0.0ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 89ms (Views: 88.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/restaurants" for ::1 at 2016-04-20 01:11:34 +0300
+Processing by RestaurantsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mHEjcpSLUQLy46E78z/Nb3ipVmCjlxesNiWWwoumbiWGnUtGWrCZJyo3X7801TDC8015Gc/Z19wVUdzsHFPmfA==", "restaurant"=>{"name"=>"", "address"=>"", "phone"=>"", "website"=>"", "image"=>#<ActionDispatch::Http::UploadedFile:0x9ad3088 @tempfile=#<Tempfile:C:/Users/Laa/AppData/Local/Temp/RackMultipart20160420-11376-1ud00rt.JPG>, @original_filename="DSC_0086.JPG", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"restaurant[image]\"; filename=\"DSC_0086.JPG\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Restaurant"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "restaurants" ("name", "address", "phone", "website", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["name", ""], ["address", ""], ["phone", ""], ["website", ""], ["image", "DSC_0086.JPG"], ["created_at", "2016-04-19 22:11:34.603538"], ["updated_at", "2016-04-19 22:11:34.603538"]]
+  [1m[36m (14.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/restaurants/5
+Completed 302 Found in 61ms (ActiveRecord: 15.9ms)
+
+
+Started GET "/restaurants/5" for ::1 at 2016-04-20 01:11:34 +0300
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mRestaurant Load (0.0ms)[0m  SELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered restaurants/show.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_bootstrap.html.erb (0.0ms)
+  Rendered layouts/_navbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 63ms (Views: 44.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2016-04-20 01:11:40 +0300
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_bootstrap.html.erb (0.0ms)
+  Rendered layouts/_navbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 47ms (Views: 46.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-04-20 01:11:41 +0300
+Processing by RestaurantsController#index as HTML
+  [1m[36mRestaurant Load (0.0ms)[0m  [1mSELECT "restaurants".* FROM "restaurants"[0m
+  Rendered restaurants/index.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_bootstrap.html.erb (0.0ms)
+  Rendered layouts/_navbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 46ms (Views: 45.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restaurants/5" for ::1 at 2016-04-20 01:11:44 +0300
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mRestaurant Load (0.0ms)[0m  SELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered restaurants/show.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_bootstrap.html.erb (0.0ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 46ms (Views: 44.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restaurants" for ::1 at 2016-04-20 01:11:48 +0300
+Processing by RestaurantsController#index as HTML
+  [1m[36mRestaurant Load (0.0ms)[0m  [1mSELECT "restaurants".* FROM "restaurants"[0m
+  Rendered restaurants/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_bootstrap.html.erb (0.0ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 47ms (Views: 46.5ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/restaurants/5" for ::1 at 2016-04-20 01:11:51 +0300
+Processing by RestaurantsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"trbo2JnAlrSJ74FH8BBoeFayt+9FEtKhDJoDaXUU6KyoWoDsV/tekVE7f8M3+pXV3VaYlilcEtEv7klH4uFg9Q==", "id"=>"5"}
+  [1m[35mRestaurant Load (0.5ms)[0m  SELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  DELETE FROM "restaurants" WHERE "restaurants"."id" = ?  [["id", 5]]
+  [1m[36m (12.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/restaurants
+Completed 302 Found in 19ms (ActiveRecord: 14.2ms)
+
+
+Started GET "/restaurants" for ::1 at 2016-04-20 01:11:51 +0300
+Processing by RestaurantsController#index as HTML
+  [1m[35mRestaurant Load (0.5ms)[0m  SELECT "restaurants".* FROM "restaurants"
+  Rendered restaurants/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_bootstrap.html.erb (0.0ms)
+  Rendered layouts/_navbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 43ms (Views: 41.8ms | ActiveRecord: 0.5ms)
