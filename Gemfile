@@ -3,12 +3,12 @@ ruby '2.1.8'
 
 gem 'rails_12factor', group: :production
 gem 'rails', '4.2.6'
+gem "figaro"
 
 gem 'sqlite3', group: :development
 
 gem "fog"
 
-gem "figaro"
 
 gem 'sass-rails', '~> 5.0'
 
