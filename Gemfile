@@ -24,7 +24,7 @@ gem 'carrierwave'
 gem "mini_magick"
 
 gem 'turbolinks'
-gem "fog-aws"
+gem "fog"
 gem 'jbuilder', '~> 2.0'
 gem 'rails_12factor' 
 gem 'rails', '4.2.6'
