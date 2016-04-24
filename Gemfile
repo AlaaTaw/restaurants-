@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 ruby '2.1.8'
+gem 'devise'
 
 gem 'sqlite3', group: :development
 
